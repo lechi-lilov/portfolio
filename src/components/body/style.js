@@ -29,6 +29,10 @@ export const Left = styled.div`
   h1:nth-child(2) {
     line-height: 3.8rem;
     border-bottom: 2px solid white;
+    transition: 0.5s;
+  }
+  h1:nth-child(2):hover {
+    border-bottom: 2px solid #4071f4;
   }
 `;
 
