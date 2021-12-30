@@ -14,6 +14,7 @@ import {
   Img,
   Wrapper,
   Statictxt,
+  Dynamictxt,
 } from "./style";
 
 function Body() {
@@ -47,17 +48,17 @@ function Body() {
               <p>Hey, There!</p>
               <Wrapper>
                 <Statictxt>I am</Statictxt>
-                <ul>
+                <Dynamictxt>
                   <li>
                     <span>{data.title}</span>
                   </li>
                   <li>
                     <span>{data.job}</span>
                   </li>
-                </ul>
+                </Dynamictxt>
               </Wrapper>
               <p>
-                I Am a {data.job}
+                I Am a {data.job} on
                 {data.place}
               </p>
               <Buttons>
@@ -80,6 +81,7 @@ function Body() {
                   >
                     <FontAwesomeIcon icon={faLinkedinIn} />
                   </a>
+
                   <a
                     href="https://github.com/lechiDzhalilov"
                     target="_blank"

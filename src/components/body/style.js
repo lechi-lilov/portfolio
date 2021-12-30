@@ -42,19 +42,6 @@ export const Wrapper = styled.div`
   display: inline-flex;
   font-size: 2.5rem;
   font-weight: 600;
-  ul {
-    margin-left: 1rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
-    overflow: hidden;
-  }
-  li {
-    list-style-type: none;
-    color: #4071f4;
-    position: relative;
-    top: 0;
-    animation: slide 5s steps(2) infinite;
-  }
 
   @keyframes slide {
     100% {
@@ -86,6 +73,20 @@ export const Wrapper = styled.div`
 export const Statictxt = styled.div`
   font-weight: 600;
   font-size: 2.5rem;
+`;
+export const Dynamictxt = styled.div`
+  margin-left: 1rem;
+  height: 3.5rem;
+  line-height: 3.5rem;
+  overflow: hidden;
+
+  li {
+    list-style-type: none;
+    color: #4071f4;
+    position: relative;
+    top: 0;
+    animation: slide 5s steps(2) infinite;
+  }
 `;
 
 export const Right = styled.div`

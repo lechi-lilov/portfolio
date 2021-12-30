@@ -2,13 +2,13 @@ const info = [
   {
     title: "Lechi Dzhalilov",
     job: "Frontend Developer Intern ",
-    place: "on Quickload",
+    place: " Quickload",
     experience1: {
       date: "2019-2019",
       title: "Bir Bilene Sor Teknoloji A.Ş.",
       job: "Mobile Application Developer Intern",
       place: "Istanbul/Turkey",
-      description: "I developed A News App",
+      description: "I developed a News App with HTML, Css and JavaScript",
     },
     education: {
       date: "2018-Currently",
