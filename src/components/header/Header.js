@@ -15,7 +15,7 @@ function Header() {
         <Link href="/">
           <a>About Me</a>
         </Link>
-        <Link href="/headerlinks/myresume.js">
+        <Link href="/headerlinks/myresume">
           <a>Resume</a>
         </Link>
         <Link href="/headerlinks/myprojects">
