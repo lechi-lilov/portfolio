@@ -27,7 +27,6 @@ export const Form = styled.form`
   p {
     color: #bf1650;
   }
-
   ,
   p::before {
     display: inline;
@@ -47,14 +46,12 @@ export const Form = styled.form`
   ,
   input {
     display: block;
-    box-sizing: border-box;
     width: 17vw;
     border-top: none;
     border-left: none;
     border-right: none;
     border-bottom: 1px solid black;
     padding: 10px 15px 15px 15px;
-    margin-bottom: 10px;
     font-size: 14px;
   }
   ,
@@ -66,11 +63,13 @@ export const Form = styled.form`
     outline: none;
   }
 `;
+
 export const Namefield = styled.div`
   display: flex;
   justify-content: space-between;
   padding: 10px 15px 15px 15px;
 `;
+
 export const Name = styled.div``;
 export const Surname = styled.div``;
 

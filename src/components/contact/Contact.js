@@ -91,7 +91,7 @@ function Contact() {
 
           <label htmlFor="message">Message*</label>
           <textarea
-            rows="6"
+            rows="4"
             id="message"
             name="message"
             {...register("message", { required: true })}
