@@ -15,7 +15,7 @@ function myprojects() {
 export default myprojects;
 
 const Container = styled.div`
-  background-color: #353353;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

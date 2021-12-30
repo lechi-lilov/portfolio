@@ -22,4 +22,22 @@ const info = [
   },
 ];
 
+const projects = [
+  {
+    title: "Linkedin",
+    description:
+      "it's a linkedin clone almost exactly the same as original linkedin. I developed it with html, css, react.js",
+    link: "empty",
+    image: "empty",
+  },
+  {
+    title: "gmail",
+    description:
+      "it's a gmail clone almost exactly the same as original gmail. I developed it with html, css, react.js",
+    link: "empty",
+    image: "empty",
+  },
+];
+
+export { projects };
 export { info };
