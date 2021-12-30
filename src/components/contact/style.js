@@ -74,7 +74,7 @@ export const Namefield = styled.div`
 export const Name = styled.div``;
 export const Surname = styled.div``;
 
-export const Email = styled.div`
+export const TextField = styled.div`
   input {
     width: 100%;
   }
@@ -110,5 +110,4 @@ export const Button = styled.div`
     cursor:pointer;
   }
   ,
- 
 `;

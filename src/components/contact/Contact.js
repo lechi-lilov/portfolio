@@ -1,14 +1,18 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
-import { Container } from "./style";
-import { Form } from "./style";
-import { Namefield } from "./style";
-import { Name } from "./style";
-import { Surname } from "./style";
-import { Email } from "./style";
-import { Button } from "./style";
+import Modal from "../modal/Modal";
+import {
+  Container,
+  Form,
+  Namefield,
+  Name,
+  Surname,
+  TextField,
+  Button,
+} from "./style";
 
 function Contact() {
+  const [showModal, setShowModal] = useState(false);
   const {
     register,
     reset,
@@ -32,6 +36,7 @@ function Contact() {
   useEffect(() => {
     if (isSubmitSuccessful) {
       reset({ name: "", surname: "", email: "", subject: "", message: "" });
+      setShowModal((prev) => !prev);
     }
   }, [, isSubmitSuccessful, reset]);
 
@@ -65,7 +70,7 @@ function Contact() {
           </Surname>
         </Namefield>
 
-        <Email>
+        <TextField>
           <label htmlFor="email">Email*</label>
           <input
             id="email"
@@ -92,12 +97,13 @@ function Contact() {
             {...register("message", { required: true })}
           />
           {errors.email && <p>This field is required</p>}
-        </Email>
+        </TextField>
 
         <Button>
           <button type="submit">Send</button>
         </Button>
       </Form>
+      <Modal showModal={showModal} setShowModal={setShowModal} />
     </Container>
   );
 }

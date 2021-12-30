@@ -61,7 +61,7 @@ function Body() {
                 {data.place}
               </p>
               <Buttons>
-                <Link href="/nav/myresume" passHref>
+                <Link href="/headerlinks/myresume" passHref>
                   <Option1>
                     <button>Resume</button>
                   </Option1>
