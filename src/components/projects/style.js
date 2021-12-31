@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  min-width: 40%;
+  width: 40%;
   min-height: 100%;
   color: white;
-  margin-top: 10rem;
+  margin: 10rem 0 5rem 0;
   h1 {
     text-align: center;
   }
@@ -36,9 +36,20 @@ export const Cart = styled.div`
   display: flex;
   justify-content: space-between;
 `;
-export const CartHeadline = styled.div``;
 export const Left = styled.div`
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 1rem;
+  a {
+  }
+  a:hover {
+  }
+`;
+export const CartHeadline = styled.div`
+  display: flex;
+  justify-content: left;
 `;
 export const Right = styled.div`
   width: 50%;

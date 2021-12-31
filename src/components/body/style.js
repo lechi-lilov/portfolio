@@ -95,7 +95,7 @@ export const Dynamictxt = styled.div`
 
 export const Right = styled.div`
   color: black;
-  min-width: 20%;
+  width: 40%;
   min-height: 40%;
   margin: 0 10rem 5rem 0;
   display: flex;
@@ -107,6 +107,13 @@ export const Right = styled.div`
   }
   p {
     font-size: 1.3rem;
+  }
+`;
+
+export const Info = styled.div`
+  p {
+    font-size: 1.2rem !important;
+    margin: 1rem 0 1rem 0;
   }
 `;
 export const Buttons = styled.div`

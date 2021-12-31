@@ -15,6 +15,7 @@ import {
   Wrapper,
   Statictxt,
   Dynamictxt,
+  Info,
 } from "./style";
 
 function Body() {
@@ -57,10 +58,16 @@ function Body() {
                   </li>
                 </Dynamictxt>
               </Wrapper>
-              <p>
-                I Am a {data.job} on
-                {data.place}
-              </p>
+              <Info>
+                <p>
+                  I Am a {data.job} on {""}
+                  {data.place}
+                </p>
+                <p>
+                  You can learn some information about me but if you would want
+                  to know more, please feel free to message me via contact page.
+                </p>
+              </Info>
               <Buttons>
                 <Link href="/headerlinks/myresume" passHref>
                   <Option1>

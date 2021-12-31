@@ -10,6 +10,7 @@ import {
 } from "./style";
 
 import { projects } from "../../../data/personeldata";
+import Image from "next/image";
 
 function Projects() {
   return (
@@ -23,6 +24,7 @@ function Projects() {
           </p>
         </Headline>
         {projects.map((project, index) => {
+          const src = `${project.image}`;
           return (
             <Cart key={index}>
               <Left>
@@ -32,7 +34,18 @@ function Projects() {
                 <p>{project.description}</p>
                 <a href="#">{project.link}</a>
               </Left>
-              <Right>{project.image}</Right>
+              <Right>
+                <Image
+                  loader={() => src}
+                  priority
+                  className="avatar"
+                  layout="responsive"
+                  src={src}
+                  alt="Lİnkedin"
+                  width={144}
+                  height={144}
+                />
+              </Right>
             </Cart>
           );
         })}

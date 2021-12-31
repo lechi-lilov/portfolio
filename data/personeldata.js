@@ -2,7 +2,7 @@ const info = [
   {
     title: "Lechi Dzhalilov",
     job: "Frontend Developer Intern ",
-    place: " Quickload",
+    place: "Quickload",
     experience1: {
       date: "2019-2019",
       title: "Bir Bilene Sor Teknoloji A.Ş.",
@@ -24,18 +24,20 @@ const info = [
 
 const projects = [
   {
-    title: "Linkedin",
+    title: "Linkedin Clone",
     description:
       "it's a linkedin clone almost exactly the same as original linkedin. I developed it with html, css, react.js",
-    link: "empty",
-    image: "empty",
+    link: "Click for the Demo",
+    image:
+      "https://lh3.googleusercontent.com/proxy/WrnlW9Z2iDq9FDATxAFvtlkfL9sFfGD5quc9kIGsMXl3sepQMdRzuZS88BcWlrIrpmnmawUHoRXopwKnkig5D56I3J9q7xVjkTIqxKbAJXA0SMq1UUmFCHL29sQjIi8QJTHkpil8Pu2rkkYXXgZ8bGofo_OSXZUQtt8Fv20LPA0XK452XzXCEcptQummvA5Kv8OJgp8gKI98pqHVs1l484bQFKQyG4r2bgGEaaeO_hejANiMiNbFdhB58wmXuiQ8mw",
   },
   {
-    title: "gmail",
+    title: "Gmail Clone",
     description:
       "it's a gmail clone almost exactly the same as original gmail. I developed it with html, css, react.js",
-    link: "empty",
-    image: "empty",
+    link: "Click for the Demo",
+    image:
+      "https://img.donanimhaber.com/images/haber/109253/src/Gmail-in-iOS-versiyonu-yeni-ozelliklerle-guncellendi109253_0.jpg",
   },
 ];
 
