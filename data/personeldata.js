@@ -39,6 +39,14 @@ const projects = [
     image:
       "https://img.donanimhaber.com/images/haber/109253/src/Gmail-in-iOS-versiyonu-yeni-ozelliklerle-guncellendi109253_0.jpg",
   },
+  {
+    title: "Slack Clone",
+    description:
+      "it's a Slack clone almost exactly the same as original Slack. I developed it with html, css, react.js",
+    link: "Click for the Demo",
+    image:
+      "https://cdn.arstechnica.net/wp-content/uploads/2021/03/GettyImages-1231317627.jpg",
+  },
 ];
 
 export { projects };
