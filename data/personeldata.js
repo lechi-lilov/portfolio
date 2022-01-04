@@ -29,7 +29,7 @@ const projects = [
       "it's a linkedin clone almost exactly the same as original linkedin. I developed it with html, css, react.js",
     link: "Click for the Demo",
     image:
-      "https://lh3.googleusercontent.com/proxy/WrnlW9Z2iDq9FDATxAFvtlkfL9sFfGD5quc9kIGsMXl3sepQMdRzuZS88BcWlrIrpmnmawUHoRXopwKnkig5D56I3J9q7xVjkTIqxKbAJXA0SMq1UUmFCHL29sQjIi8QJTHkpil8Pu2rkkYXXgZ8bGofo_OSXZUQtt8Fv20LPA0XK452XzXCEcptQummvA5Kv8OJgp8gKI98pqHVs1l484bQFKQyG4r2bgGEaaeO_hejANiMiNbFdhB58wmXuiQ8mw",
+      "https://digitalage.com.tr/wp-content/uploads/2020/07/linkedinin-yeni-ozelliklerini-kesfettiniz-mi.jpg",
   },
   {
     title: "Gmail Clone",

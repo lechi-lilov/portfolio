@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Background = styled.div`
-  z-index: 100;
+  z-index: 1000;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.8);
@@ -18,7 +18,7 @@ export const ModalWrapper = styled.div`
   background: #fff;
   color: #000;
   position: relative;
-  z-index: 10;
+  z-index: 100;
   border-radius: 10px;
   display: flex;
   flex-direction: column;

@@ -7,7 +7,7 @@ export const Container = styled.div`
 `;
 
 export const Mid = styled.div`
-  width: 40%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +56,7 @@ export const Button = styled.div`
 export const Info = styled.div`
   margin: 1rem 0;
   width: 100%;
-  min-height: 8rem;
+  min-height: 10rem;
   padding: 1.5rem 3rem;
   background-color: #4071f4;
   box-shadow: 5px 10px 18px black;
@@ -91,7 +91,7 @@ export const Headline2 = styled.div`
 `;
 export const Footer = styled.footer`
   width: 100%;
-  height: 10vh;
+  height: 13vh;
   background-color: #4071f4;
   margin-top: 15rem;
   color: white;

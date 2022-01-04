@@ -81,7 +81,7 @@ function Resume() {
                 <FontAwesomeIcon
                   icon={faLinkedin}
                   style={{
-                    fontSize: "1rem",
+                    fontSize: "1.5rem",
                     width: "1rem",
                     cursor: "pointer",
                   }}
@@ -95,7 +95,7 @@ function Resume() {
                 <FontAwesomeIcon
                   icon={faGithub}
                   style={{
-                    fontSize: "1rem",
+                    fontSize: "1.5rem",
                     width: "1rem",
                     cursor: "pointer",
                   }}
